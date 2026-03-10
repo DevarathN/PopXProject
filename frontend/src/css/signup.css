@@ -1,0 +1,28 @@
+.signup-container {
+  width: 25%;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+}
+.create-account-btn:hover {
+  box-shadow: 2px 2px 2px 2px #29017a;
+}
+@media screen and (max-width: 1024px) {
+  .signup-container {
+    width: 45%;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .signup-container {
+    width: 80%;
+  }
+
+  .login-form {
+    width: 100%;
+  }
+}

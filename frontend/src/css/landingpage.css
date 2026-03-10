@@ -1,0 +1,57 @@
+.landing-page-container h3 {
+  color: black;
+}
+.landing-page-container {
+  width: 20%;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px;
+  min-height: 50vh;
+}
+.landing-page-container p {
+  color: black;
+}
+.signup-login-btn {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.signup-login-btn button {
+  padding: 10px;
+  width: 100%;
+}
+.signup-login-btn button:hover {
+  border: none;
+}
+.signup-login-btn button:focus {
+  outline: none;
+}
+.signup-login-btn .signup {
+  background-color: #6c25ff;
+  color: white;
+}
+.signup-login-btn .signup:hover {
+  box-shadow: 2px 2px 2px 2px #29017a;
+}
+.signup-login-btn .login:hover {
+  box-shadow: 2px 2px 2px 2px #4f03524b;
+}
+.signup-login-btn .login {
+  background-color: #6c25ff4b;
+  color: black;
+}
+@media screen and (max-width: 1024px) {
+  .landing-page-container {
+    width: 40%;
+    min-height: 30vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .landing-page-container {
+    width: 80%;
+  }
+}
